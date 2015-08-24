@@ -1,0 +1,136 @@
+body{
+    width:99.99%;
+    background: #334351;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+#container{
+    position: relative;
+    background: #70afe8;
+}
+#header_container{
+    height:100px;
+    background: url('../images/header.png');
+    border-bottom:2px solid black;
+}
+#header{
+    width:940px;
+    height:100px;
+    margin:0 auto;
+    position: relative;
+}
+#login_name{
+     position: absolute;
+     left:0px;
+     bottom:0px;
+}
+#header_logo{
+    width:292px;
+    height:78px;
+    float:left;
+    padding-top:10px;
+}
+#header_logo img{
+    border:none;
+}
+#content_container{
+}
+#content{
+    width: 940px;
+    margin:0 auto;
+    min-height: 400px;
+}
+#content_left{
+    min-height: 400px;
+    width:130px;
+    padding:10px 0px 0px 0px;
+    float:left;
+}
+#content_middle{
+    min-height: 400px;
+    width:650px;
+    border-left:2px solid black;
+    padding:20px 25px 20px 25px;
+    float:left;
+}
+#content_middle table{
+    border-collapse: collapse;
+    border:1px solid black;
+    width:100%;
+}
+#content_middle tr td,
+#content_middle tr th{
+    padding:3px;
+    font-size:14px;
+    border-right:1px solid black;
+    border-bottom:1px solid #666666;
+}
+#content_middle tr td a,
+#content_middle tr th a{
+    color:white;
+    font-weight: bold;
+}
+#content_right{
+    min-height: 400px;
+    width:10px;
+    float:right;
+    padding:10px;
+}
+#footer_container{
+    height: 100px;
+    background: url('../images/footer.png');
+    border-top:2px solid black;
+    
+}
+#footer{
+    width:940px;
+    margin:0 auto;
+    height:100px;
+}
+#footer_text{
+    float:right;
+    margin-top:40px;
+    font-weight: bold;
+    color:white;
+}
+
+#login_table{
+    margin-top:100px;
+}
+#login_table table{
+    margin:0 auto;
+    border:none;
+}
+#login_table table tr td{
+    padding:10px;
+    border:none;
+}
+
+#login_table table tr td input#submit{
+    width:80px;
+    padding:5px;
+}
+/*admin header*/
+#admin_menu{
+    float:right;
+    margin-top:50px;
+    margin-right:100px;
+}
+#admin_menu ul{
+    list-style: none;
+}
+#admin_menu ul li{
+    display:inline;
+}
+#admin_menu ul li a{
+    color:white;
+    margin-left:20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#admin_menu ul li a:hover{
+    color:#000;
+}

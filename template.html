@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Book My Hotel</title>
+        <link  rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript"></script>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+                // <![CDATA[
+                $(document).ready(function () {
+                        $('#tabs').tabify();
+                });
+                // ]]>
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="menubar_container">
+                <div id="menubar">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">SOLUTIONS</a></li>
+                        <li><a href="#">CONTACTS</a></li>
+                        <br style="clear: both"/>
+                    </ul>
+                </div>
+            </div>
+            <div id="gallery_container">
+                <div id="gallery">                    
+                </div>
+            </div>
+            <div id="services" style="border:1px solid red;">
+                <div id="service1" class="servicesclass">
+                    <div class="service_left_image">
+
+                    </div>
+                    <div class="service_right_desc">
+
+                    </div>
+                    <div class="service_read_more">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div id="service2" class="servicesclass">
+                    <div class="service_left_image">
+
+                    </div>
+                    <div class="service_right_desc">
+
+                    </div>
+                    <div class="service_read_more">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div id="service3" class="servicesclass">
+                    <div class="service_left_image">
+
+                    </div>
+                    <div class="service_right_desc">
+
+                    </div>
+                    <div class="service_read_more">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <br style="clear:both"/>
+            <div id="main_content_container">
+                <div id="main_content_left">
+
+                </div>
+                <div id="main_content_right">
+
+                    <ul id="tabs">
+                      <li class="active"><a href="#jquery">jQuery</a></li>
+                      <li><a href="#prototype">Prototype</a></li>
+                      <li><a href="#ext">Ext</a></li>
+                    </ul>
+                    <div id="jquery" class="content">
+                         jQuery is a cross-browser…
+                    </div>
+                   <div id="prototype" class="content">
+                    prototype content
+                   </div>
+                   <div id="ext" class="content">
+                     Ext (X-t) is a JavaScript…
+                   </div>
+                    
+                </div>
+                <br style="clear:both"/>
+            </div>
+            <div id="footer">
+                <p>Developed by: Deepak Sharma<br/> E.NO. 054704632</p>
+            </div>
+        </div>
+    </body>
+</html>
